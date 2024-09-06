@@ -1,0 +1,64 @@
+/* Asegurar que el body ocupe toda la altura */
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #e8dfd6; /* Color de fondo general similar al de la imagen */
+  font-family: Arial, sans-serif;
+}
+
+/* Asegurar que el contenedor principal se ajuste al fondo */
+.container {
+ 
+  max-width: 1200px;
+  margin-top: 50px;
+  background-color: #e8dfd6;
+
+  
+}
+.card-header {
+  color: rgb(64, 100, 64); /* Cambia el color a verde */
+  font-size: 50px; /* Ajusta el tamaño de la fuente según tus necesidades */
+}
+
+
+/* Tarjeta del formulario */
+.card {
+  background-color: #f5f0eb; /* Fondo claro para la tarjeta */
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidad */
+}
+
+/* Labels y textos */
+label {
+  color: #6d6d6d; /* Color de los textos del formulario */
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: #b0a8a3; /* Color del texto de los placeholders */
+}
+
+/* Botón de registro */
+.btn-primary {
+  background-color: #6d8450; /* Verde suave para el botón */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #59703d; /* Color verde más oscuro al pasar el mouse */
+}
+
+/* Imagen y enlaces */
+.col-md-6 img {
+  border-radius: 10px; /* Bordes redondeados para la imagen */
+}
+
+a {
+  color: #8c7e65; /* Color de los enlaces */
+  font-weight: bold;
+}
+
+a:hover {
+  color: #6d8450; /* Cambiar el color de los enlaces al pasar el mouse */
+}
+
